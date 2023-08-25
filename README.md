@@ -6,5 +6,6 @@
 
 ```env
 token=token
-clientID=clientID
+clientID=clientID,
+database=database URL
 ```
