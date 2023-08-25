@@ -15,7 +15,7 @@
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
     "fs": "^0.0.1-security",
-    "mongoose": "^6.7.2",
+    "mongoose": "^7.4.5",
     "ping-monitor": "^0.8.1"
   },
   "devDependencies": {

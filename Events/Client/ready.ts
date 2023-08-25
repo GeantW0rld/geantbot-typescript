@@ -10,10 +10,7 @@ client.once("ready", () => {
     const mongoURL = process.env.database
 
     if (!mongoURL) return;
-    mongoose.connect(mongoURL, {
-        useNewUrlParser: true, // ignore the error
-        useUnifiedTopology: true, 
-    }).then(() => {
+    mongoose.connect(mongoURL).then(() => {
         console.log("database connected!")
     }).catch(err => console.log(err))
 })
